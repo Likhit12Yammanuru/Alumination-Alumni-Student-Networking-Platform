@@ -1,0 +1,33 @@
+.app-container {
+  padding-bottom: 60px; /* space for bottom nav */
+}
+
+.page {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bottom-nav button.active {
+  font-weight: bold;
+  color: blue;
+}
