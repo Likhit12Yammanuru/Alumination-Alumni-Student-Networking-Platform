@@ -1,0 +1,105 @@
+/* General Page Styling */
+.help-page {
+  display: flex;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.chat-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.chat-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-item {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.chat-item:hover {
+  background-color: #f1f1f1;
+}
+
+.chat-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.chat-details {
+  flex: 3;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.chat-container {
+  padding: 15px;
+}
+
+.chat-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.message-history {
+  overflow-y: auto;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.message-history p {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.alumni-message {
+  background-color: #e9ecef;
+  align-self: flex-end;
+}
+
+.role-message {
+  background-color: #f1f1f1;
+  align-self: flex-start;
+}
+
+.message-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-input input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.message-input button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-input button:hover {
+  background-color: #0056b3;
+}

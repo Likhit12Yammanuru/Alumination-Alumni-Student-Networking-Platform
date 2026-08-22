@@ -1,0 +1,66 @@
+.dm-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.dm-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.dm-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.dm-messages {
+  margin: 1rem 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dm-msg {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.sent {
+  background-color: #d1e7dd;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.received {
+  background-color: #f8d7da;
+  align-self: flex-start;
+}
+
+.dm-msg span {
+  display: block;
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+  opacity: 0.6;
+}
+
+.dm-input-area {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dm-input-area input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.dm-status {
+  margin-top: 0.5rem;
+  color: green;
+}

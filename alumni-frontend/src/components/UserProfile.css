@@ -1,0 +1,32 @@
+.user-profile {
+  padding: 1rem;
+  text-align: center;
+}
+
+.user-profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.user-profile textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.user-profile button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.user-profile button:hover {
+  background-color: #0056b3;
+}
